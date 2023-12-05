@@ -1,0 +1,78 @@
+[INFO][2023-12-05 18:26:49][config.py:236] - [INIT] load config: {'channel_type': 'wx', 'model': '', 'open_ai_api_key': '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', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': ['胡图图', '@胡图图'], 'single_chat_reply_prefix': '[胡图图] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['🐻熊窝窝|实习3.0🐻', '🐻熊窝窝|小镇 2🐻', 'ChatGPT测试群', 'ChatGPT测试群2'], 'group_chat_in_one_session': ['ChatGPT测试群', 'ChatGPT测试群2'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'top_p': 1, 'subscribe_msg': '感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '', 'linkai_app_code': ''}
+[INFO][2023-12-05 18:26:49][config.py:186] - [Config] User datas file not found, ignore.
+[INFO][2023-12-05 18:26:50][plugin_manager.py:50] - Loading plugins config...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins/role
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins/linkai
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins/dungeon
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins/bdunit
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins/finish
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins/godcmd
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins/hello
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins/banwords
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins/keyword
+[INFO][2023-12-05 18:26:50][plugin_manager.py:41] - Plugin tool_v0.4 registered, path=./plugins/tool
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin GODCMD not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin KEYWORD not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin BANWORDS not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin LINKAI not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin TOOL not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin ROLE not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin DUNGEON not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin BDUNIT not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin HELLO not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][plugin_manager.py:123] - Plugin FINISH not found in pconfig, adding to pconfig...
+[INFO][2023-12-05 18:26:50][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为1834。
+[INFO][2023-12-05 18:26:50][godcmd.py:210] - [Godcmd] inited
+[INFO][2023-12-05 18:26:50][keyword.py:40] - [keyword] {}
+[INFO][2023-12-05 18:26:50][keyword.py:42] - [keyword] inited.
+[WARNING][2023-12-05 18:26:50][banwords.py:54] - [Banwords] init failed, ignore or see https://github.com/zhayujie/chatgpt-on-wechat/tree/master/plugins/banwords .
+[WARNING][2023-12-05 18:26:50][plugin_manager.py:148] - Failed to init BANWORDS, diabled. [Errno 2] No such file or directory: '/Users/mahaiqiang/Desktop/baidu/chatgpt-on-wechat/plugins/banwords/banwords.txt'
+[INFO][2023-12-05 18:26:50][linkai.py:33] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2023-12-05 18:26:51][tool.py:31] - [tool] inited
+[INFO][2023-12-05 18:26:51][role.py:69] - [Role] inited
+[INFO][2023-12-05 18:26:51][dungeon.py:56] - [Dungeon] inited
+[WARNING][2023-12-05 18:26:51][bdunit.py:42] - [BDunit] init failed, ignore 
+[WARNING][2023-12-05 18:26:51][plugin_manager.py:148] - Failed to init BDUNIT, diabled. config.json not found
+[INFO][2023-12-05 18:26:51][hello.py:24] - [Hello] inited
+[INFO][2023-12-05 18:26:51][finish.py:23] - [Finish] inited
+[INFO][2023-12-05 18:27:15][wechat_channel.py:126] - Wechat login success, user_id: @0c5a9bc9d6cb3110698030b97468e4c40d7fc46e6285a78bf59141430030d012, nickname: 胡图图
+[INFO][2023-12-05 18:27:52][bridge.py:43] - create bot chatGPT for chat
+[INFO][2023-12-05 18:27:52][chat_gpt_bot.py:49] - [CHATGPT] query=，hello
+[WARNING][2023-12-05 18:27:57][chat_gpt_bot.py:135] - [CHATGPT] RateLimitError: You exceeded your current quota, please check your plan and billing details.
+[WARNING][2023-12-05 18:28:17][chat_gpt_bot.py:159] - [CHATGPT] 第1次重试
+[WARNING][2023-12-05 18:28:17][chat_gpt_bot.py:135] - [CHATGPT] RateLimitError: You exceeded your current quota, please check your plan and billing details.
+[WARNING][2023-12-05 18:28:37][chat_gpt_bot.py:159] - [CHATGPT] 第2次重试
+[WARNING][2023-12-05 18:28:38][chat_gpt_bot.py:135] - [CHATGPT] RateLimitError: You exceeded your current quota, please check your plan and billing details.
+[INFO][2023-12-05 18:28:38][wechat_channel.py:194] - [WX] sendMsg=Reply(type=ERROR, content=[ERROR]
+提问太快啦，请休息一下再问我吧), receiver=@dffcf7a4efcb90e6bd0321fc803011767cb206bd813c7807a1b8004d8e83c9b9
+[INFO][2023-12-05 18:30:17][config.py:236] - [INIT] load config: {'channel_type': 'wx', 'model': '', 'open_ai_api_key': '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', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '172.22.151.84:7890', 'hot_reload': False, 'single_chat_prefix': ['胡图图', '@胡图图'], 'single_chat_reply_prefix': '[胡图图] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['🐻熊窝窝|实习3.0🐻', '🐻熊窝窝|小镇 2🐻', 'ChatGPT测试群', 'ChatGPT测试群2'], 'group_chat_in_one_session': ['ChatGPT测试群', 'ChatGPT测试群2'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'top_p': 1, 'subscribe_msg': '感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '', 'linkai_app_code': ''}
+[INFO][2023-12-05 18:30:17][config.py:186] - [Config] User datas file not found, ignore.
+[INFO][2023-12-05 18:30:17][plugin_manager.py:50] - Loading plugins config...
+[INFO][2023-12-05 18:30:17][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins/role
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins/linkai
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins/dungeon
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins/bdunit
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins/finish
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins/godcmd
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins/hello
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins/banwords
+[INFO][2023-12-05 18:30:17][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins/keyword
+[INFO][2023-12-05 18:30:18][plugin_manager.py:41] - Plugin tool_v0.4 registered, path=./plugins/tool
+[INFO][2023-12-05 18:30:18][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为0532。
+[INFO][2023-12-05 18:30:18][godcmd.py:210] - [Godcmd] inited
+[INFO][2023-12-05 18:30:18][keyword.py:40] - [keyword] {}
+[INFO][2023-12-05 18:30:18][keyword.py:42] - [keyword] inited.
+[INFO][2023-12-05 18:30:18][linkai.py:33] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2023-12-05 18:30:18][tool.py:31] - [tool] inited
+[INFO][2023-12-05 18:30:18][role.py:69] - [Role] inited
+[INFO][2023-12-05 18:30:18][dungeon.py:56] - [Dungeon] inited
+[INFO][2023-12-05 18:30:18][hello.py:24] - [Hello] inited
+[INFO][2023-12-05 18:30:18][finish.py:23] - [Finish] inited
+[INFO][2023-12-05 18:30:41][wechat_channel.py:126] - Wechat login success, user_id: @31ef2b05f5c049d5b29cbf239b6fc2f0bbe2667dc07307d892d8a47d42a1f979, nickname: 胡图图
+[INFO][2023-12-05 18:30:52][bridge.py:43] - create bot chatGPT for chat
+[INFO][2023-12-05 18:30:52][chat_gpt_bot.py:49] - [CHATGPT] query=，hello
+[WARNING][2023-12-05 18:30:52][chat_gpt_bot.py:150] - [CHATGPT] APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11ccfad50>: Failed to establish a new connection: [Errno 61] Connection refused')))
+[INFO][2023-12-05 18:30:53][wechat_channel.py:194] - [WX] sendMsg=Reply(type=ERROR, content=[ERROR]
+我连接不到你的网络), receiver=@1766cf676b571c93a8d625eea3d9982f1e90c6ee7dcc6a2c22b3eb0f77eada8d

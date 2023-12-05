@@ -1,0 +1,39 @@
+{
+  "channel_type": "wx",
+  "model": "",
+  "open_ai_api_key": "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",
+  "text_to_image": "dall-e-2",
+  "voice_to_text": "openai",
+  "text_to_voice": "openai",
+  "proxy": "",
+  "hot_reload": false,
+  "single_chat_prefix": [
+    "胡图图",
+    "@胡图图"
+  ],
+  "single_chat_reply_prefix": "[胡图图] ",
+  "group_chat_prefix": [
+    "@bot"
+  ],
+  "group_name_white_list": [
+    "🐻熊窝窝|实习3.0🐻","🐻熊窝窝|小镇 2🐻","ChatGPT测试群","ChatGPT测试群2"
+  ],
+  "group_chat_in_one_session": [
+    "ChatGPT测试群","ChatGPT测试群2"
+  ],
+  "image_create_prefix": [
+    "画"
+  ],
+  "speech_recognition": true,
+  "group_speech_recognition": false,
+  "voice_reply_voice": false,
+  "conversation_max_tokens": 2500,
+  "expires_in_seconds": 3600,
+  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
+  "temperature": 0.7,
+  "top_p": 1,
+  "subscribe_msg": "感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
+  "use_linkai": false,
+  "linkai_api_key": "",
+  "linkai_app_code": ""
+}
